@@ -12,11 +12,11 @@ export function Hero() {
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none font-headline bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
               {portfolioData.name}
             </h1>
-            <p className="text-xl md:text-2xl font-semibold text-primary-foreground bg-primary rounded-full px-4 py-1 inline-block">
+            <p className="text-xl md:text-2xl font-semibold">
               {portfolioData.title}
             </p>
             <p className="max-w-3xl mx-auto text-muted-foreground md:text-xl">
-              Welcome to my digital space! I build things for the web.
+              Selamat datang di ruang digital saya! Saya membangun dan mengamankan jaringan untuk masa depan.
             </p>
           </div>
           <div className="flex flex-col gap-4 sm:flex-row justify-center">
