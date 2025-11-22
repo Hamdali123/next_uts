@@ -12,6 +12,7 @@ export const portfolioData = {
       linkedin: 'https://linkedin.com/in',
     },
   },
+  profileImage: PlaceHolderImages.find(img => img.id === 'profile') as ImagePlaceholder,
   skills: [
     { name: 'Routing & Switching', level: 95 },
     { name: 'Cisco & Mikrotik', level: 90 },
