@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useForm } from "react-hook-form";
@@ -69,7 +70,7 @@ export function Contact() {
         <div className="mx-auto max-w-2xl">
           <Card>
             <CardHeader className="text-center space-y-2">
-              <CardTitle className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Get in Touch</CardTitle>
+              <CardTitle className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Hubungi Saya</CardTitle>
               <CardDescription className="md:text-xl/relaxed">
                 Have a question or want to work together? Send me a message!
               </CardDescription>

@@ -61,7 +61,7 @@ export function Header() {
                 </nav>
                 <Button asChild>
                     <Link href="#contact" prefetch={false} onClick={() => setIsOpen(false)}>
-                        Get in Touch
+                        Hubungi Saya
                     </Link>
                 </Button>
               </div>
@@ -83,7 +83,7 @@ export function Header() {
             </nav>
             <Button asChild>
               <Link href="#contact" prefetch={false}>
-                Get in Touch
+                Hubungi Saya
               </Link>
             </Button>
           </>

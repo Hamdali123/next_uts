@@ -1,3 +1,4 @@
+
 import { portfolioData } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -33,7 +34,7 @@ export function Hero() {
             </p>
             <div className="flex flex-col gap-4 sm:flex-row justify-center lg:justify-start">
                 <Button asChild size="lg">
-                  <Link href="#contact">Contact Me</Link>
+                  <Link href="#contact">Hubungi Saya</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg">
                   <Link href="#projects">View My Work <ArrowDown className="ml-2 h-4 w-4" /></Link>
