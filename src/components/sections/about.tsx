@@ -12,7 +12,7 @@ export function About() {
               Tentang Saya
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">
-              Developer yang Bersemangat
+              Spesialis Jaringan yang Bersemangat
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               {portfolioData.bio}
