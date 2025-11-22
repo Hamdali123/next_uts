@@ -16,13 +16,13 @@ export function Hero() {
                 alt="Profile Picture"
                 width={300}
                 height={300}
-                className="rounded-full object-cover aspect-square"
+                className="rounded-full object-cover aspect-square border-4 border-primary/20 shadow-lg"
                 data-ai-hint={portfolioData.profileImage.imageHint}
               />
             )}
           </div>
           <div className="space-y-4 text-center lg:text-left">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none font-headline bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none font-headline bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent-foreground">
               {portfolioData.name}
             </h1>
             <p className="text-xl md:text-2xl font-semibold text-primary">
