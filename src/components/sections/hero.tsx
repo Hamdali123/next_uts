@@ -14,8 +14,8 @@ export function Hero() {
               <Image
                 src={portfolioData.profileImage.imageUrl}
                 alt="Profile Picture"
-                width={400}
-                height={400}
+                width={300}
+                height={300}
                 className="rounded-full object-cover aspect-square"
                 data-ai-hint={portfolioData.profileImage.imageHint}
               />
