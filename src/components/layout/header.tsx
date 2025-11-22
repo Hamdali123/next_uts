@@ -12,6 +12,20 @@ export function Header() {
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
           <Link
+            href="/#"
+            className="transition-colors hover:text-primary"
+            prefetch={false}
+          >
+            Home
+          </Link>
+          <Link
+            href="#about"
+            className="transition-colors hover:text-primary"
+            prefetch={false}
+          >
+            About
+          </Link>
+          <Link
             href="#skills"
             className="transition-colors hover:text-primary"
             prefetch={false}
