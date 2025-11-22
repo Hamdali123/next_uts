@@ -3,8 +3,8 @@ import { PlaceHolderImages } from './placeholder-images';
 
 export const portfolioData = {
   name: 'Muhamad Hamdali',
-  title: 'Full-Stack Developer',
-  bio: "I'm a passionate full-stack developer with a knack for building modern, scalable, and user-friendly web applications. With a strong foundation in both front-end and back-end technologies, I enjoy bringing ideas to life, from concept to deployment. My goal is to create meaningful products that solve real-world problems and provide an exceptional user experience.",
+  title: 'Spesialis Jaringan',
+  bio: "Saya adalah seorang spesialis jaringan yang bersemangat dalam merancang, mengimplementasikan, dan mengelola infrastruktur jaringan yang andal dan aman. Dengan pemahaman mendalam tentang protokol jaringan, keamanan, dan teknologi terkini, saya berfokus pada menciptakan solusi jaringan yang efisien dan skalabel untuk memenuhi kebutuhan bisnis modern.",
   contact: {
     email: 'hamdali.dev@example.com',
     social: {
@@ -13,20 +13,20 @@ export const portfolioData = {
     },
   },
   skills: [
-    { name: 'React', level: 95 },
-    { name: 'Next.js', level: 90 },
-    { name: 'TypeScript', level: 85 },
-    { name: 'Node.js', level: 80 },
-    { name: 'Tailwind CSS', level: 95 },
-    { name: 'Firebase', level: 75 },
-    { name: 'Prisma', level: 70 },
-    { name: 'GenAI', level: 65 },
+    { name: 'Routing & Switching', level: 95 },
+    { name: 'Cisco & Mikrotik', level: 90 },
+    { name: 'Network Security', level: 85 },
+    { name: 'TCP/IP Suite', level: 95 },
+    { name: 'Firewall & VPN', level: 80 },
+    { name: 'Python (Automasi)', level: 75 },
+    { name: 'Monitoring Jaringan', level: 85 },
+    { name: 'Wireless Networking', level: 80 },
   ],
   projects: [
     {
-      title: 'TaskFlow - Project Management Tool',
-      description: 'A comprehensive project management application designed to help teams organize tasks, track progress, and collaborate effectively. Features include drag-and-drop task boards, real-time updates, and user authentication.',
-      tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase', 'React Query'],
+      title: 'Desain & Implementasi Jaringan Kantor',
+      description: 'Merancang dan mengimplementasikan infrastruktur jaringan untuk kantor cabang baru, mencakup konfigurasi router, switch, dan access point untuk memastikan konektivitas yang optimal dan aman bagi seluruh karyawan.',
+      tags: ['Cisco', 'Routing', 'Switching', 'VLAN', 'Network Design'],
       image: PlaceHolderImages.find(img => img.id === 'project-1') as ImagePlaceholder,
       links: {
         github: 'https://github.com',
@@ -34,9 +34,9 @@ export const portfolioData = {
       },
     },
     {
-      title: 'Artisan Prints - E-commerce Store',
-      description: 'An online marketplace for artists to sell custom prints. The platform includes product catalogs, a secure checkout process with Stripe integration, and a dedicated artist dashboard for managing inventory and sales.',
-      tags: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Stripe API'],
+      title: 'Konfigurasi Jaringan Nirkabel Skala Besar',
+      description: 'Menerapkan solusi jaringan nirkabel terpusat untuk area publik, mengelola ratusan access point menggunakan wireless controller untuk menyediakan cakupan Wi-Fi yang handal dan manajemen yang mudah.',
+      tags: ['Mikrotik', 'Wireless', 'CAPsMAN', 'Hotspot', 'Network Management'],
       image: PlaceHolderImages.find(img => img.id === 'project-2') as ImagePlaceholder,
       links: {
         github: 'https://github.com',
@@ -44,9 +44,9 @@ export const portfolioData = {
       },
     },
     {
-      title: 'Creator Hub - Social Dashboard',
-      description: 'A social media analytics dashboard for content creators. It aggregates data from multiple platforms, providing insights into audience growth, engagement rates, and content performance through interactive charts and reports.',
-      tags: ['Next.js', 'Prisma', 'NextAuth.js', 'Recharts'],
+      title: 'Analisis dan Keamanan Jaringan',
+      description: 'Melakukan analisis keamanan jaringan menggunakan tools seperti Wireshark dan Nmap untuk mendeteksi anomali. Mengimplementasikan kebijakan firewall dan VPN untuk melindungi data dan sumber daya perusahaan.',
+      tags: ['Network Security', 'Firewall', 'VPN', 'Wireshark', 'Intrusion Detection'],
       image: PlaceHolderImages.find(img => img.id === 'project-3') as ImagePlaceholder,
       links: {
         github: 'https://github.com',
