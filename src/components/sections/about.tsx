@@ -9,10 +9,10 @@ export function About() {
           <div className="space-y-4">
             <div className="inline-block rounded-lg bg-secondary px-3 py-1 text-sm">
               <User className="inline-block h-4 w-4 mr-1" />
-              About Me
+              Tentang Saya
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">
-              A Passionate Developer
+              Developer yang Bersemangat
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               {portfolioData.bio}
