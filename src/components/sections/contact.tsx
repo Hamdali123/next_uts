@@ -42,21 +42,21 @@ export function Contact() {
       const result = await submitContactForm(data);
       if (result.success) {
         toast({
-          title: "Message Sent!",
-          description: result.message,
+          title: "Pesan Terkirim!",
+          description: "Terima kasih atas pesan Anda! Saya akan segera menghubungi Anda.",
         });
         form.reset();
       } else {
         toast({
           title: "Error",
-          description: "Something went wrong. Please check your input.",
+          description: "Terjadi kesalahan. Silakan periksa masukan Anda.",
           variant: "destructive",
         });
       }
     } catch (error) {
       toast({
-        title: "Something went wrong",
-        description: "Could not send your message. Please try again later.",
+        title: "Terjadi kesalahan",
+        description: "Tidak dapat mengirim pesan Anda. Silakan coba lagi nanti.",
         variant: "destructive",
       });
     } finally {
@@ -72,7 +72,7 @@ export function Contact() {
             <CardHeader className="text-center space-y-2">
               <CardTitle className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Hubungi Saya</CardTitle>
               <CardDescription className="md:text-xl/relaxed">
-                Have a question or want to work together? Send me a message!
+                Punya pertanyaan atau ingin bekerja sama? Kirimi saya pesan!
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -83,9 +83,9 @@ export function Contact() {
                     name="name"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Name</FormLabel>
+                        <FormLabel>Nama</FormLabel>
                         <FormControl>
-                          <Input placeholder="Your Name" {...field} />
+                          <Input placeholder="Nama Anda" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -98,7 +98,7 @@ export function Contact() {
                       <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="your.email@example.com" type="email" {...field} />
+                          <Input placeholder="email.anda@contoh.com" type="email" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -109,16 +109,16 @@ export function Contact() {
                     name="message"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Message</FormLabel>
+                        <FormLabel>Pesan</FormLabel>
                         <FormControl>
-                          <Textarea placeholder="Your message..." className="min-h-[150px]" {...field} />
+                          <Textarea placeholder="Pesan Anda..." className="min-h-[150px]" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
                     )}
                   />
                   <Button type="submit" className="w-full" disabled={isSubmitting}>
-                    {isSubmitting ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Sending...</> : "Send Message"}
+                    {isSubmitting ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Mengirim...</> : "Kirim Pesan"}
                   </Button>
                 </form>              
               </Form>

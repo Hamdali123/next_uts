@@ -18,7 +18,7 @@ export function Footer() {
         <div className="flex items-center gap-2">
           <MountainIcon className="h-6 w-6 text-primary" />
           {year && <p className="text-center text-sm text-muted-foreground sm:text-left">
-            &copy; {year} Muhamad Hamdali. All rights reserved.
+            &copy; {year} Muhamad Hamdali. Hak cipta dilindungi.
           </p>}
         </div>
         <div className="flex items-center gap-4">

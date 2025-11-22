@@ -14,7 +14,7 @@ export function Hero() {
             {portfolioData.profileImage && (
               <Image
                 src={portfolioData.profileImage.imageUrl}
-                alt="Profile Picture"
+                alt="Foto Profil"
                 width={300}
                 height={300}
                 className="rounded-full object-cover aspect-square border-4 border-primary/20 shadow-lg"
@@ -37,7 +37,7 @@ export function Hero() {
                   <Link href="#contact">Hubungi Saya</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                  <Link href="#projects">View My Work <ArrowDown className="ml-2 h-4 w-4" /></Link>
+                  <Link href="#projects">Lihat Karya Saya <ArrowDown className="ml-2 h-4 w-4" /></Link>
                 </Button>
             </div>
           </div>

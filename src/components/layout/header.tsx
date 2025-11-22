@@ -1,4 +1,3 @@
-
 "use client";
 
 import { Menu, MountainIcon } from "lucide-react";
@@ -13,11 +12,11 @@ import {
 import { useState } from "react";
 
 const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "#about", label: "About" },
-    { href: "#skills", label: "Skills" },
-    { href: "#projects", label: "Projects" },
-    { href: "#contact", label: "Contact" },
+    { href: "/", label: "Beranda" },
+    { href: "#about", label: "Tentang" },
+    { href: "#skills", label: "Keahlian" },
+    { href: "#projects", label: "Proyek" },
+    { href: "#contact", label: "Kontak" },
 ];
 
 export function Header() {
@@ -37,7 +36,7 @@ export function Header() {
             <SheetTrigger asChild>
               <Button variant="outline" size="icon">
                 <Menu className="h-6 w-6" />
-                <span className="sr-only">Open navigation menu</span>
+                <span className="sr-only">Buka menu navigasi</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="right">

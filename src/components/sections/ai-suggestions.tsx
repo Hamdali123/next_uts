@@ -23,10 +23,10 @@ export function AiSuggestions() {
       const result = await suggestNewProjects({ projectDescriptions, userSkills });
       setSuggestions(result);
     } catch (error) {
-      console.error("AI suggestion failed:", error);
+      console.error("Gagal mendapatkan saran AI:", error);
       toast({
-        title: "AI Suggestion Failed",
-        description: "Could not generate project suggestions. Please try again later.",
+        title: "Gagal Mendapatkan Saran AI",
+        description: "Tidak dapat menghasilkan saran proyek. Silakan coba lagi nanti.",
         variant: "destructive",
       });
     } finally {
@@ -39,18 +39,18 @@ export function AiSuggestions() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <Lightbulb className="mx-auto h-12 w-12 text-accent" />
-          <h2 className="mt-4 text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Need Project Ideas?</h2>
+          <h2 className="mt-4 text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Butuh Ide Proyek?</h2>
           <p className="mt-4 max-w-[900px] mx-auto text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Leverage AI to get personalized project suggestions based on my current skills and portfolio. Find the next great idea to build.
+            Manfaatkan AI untuk mendapatkan saran proyek yang dipersonalisasi berdasarkan keahlian dan portofolio saya saat ini. Temukan ide hebat berikutnya untuk dibangun.
           </p>
           <Button onClick={handleSuggestProjects} disabled={isLoading} size="lg" className="mt-8 bg-accent hover:bg-accent/90 text-accent-foreground">
             {isLoading ? (
               <>
                 <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                Generating...
+                Menghasilkan...
               </>
             ) : (
-              "Suggest New Projects"
+              "Sarankan Proyek Baru"
             )}
           </Button>
 
@@ -77,8 +77,8 @@ export function AiSuggestions() {
             {suggestions && suggestions.suggestedProjects.length > 0 && (
               <Card className="animate-in fade-in duration-500">
                 <CardHeader>
-                  <CardTitle>AI-Generated Project Ideas</CardTitle>
-                  <CardDescription>Here are a few ideas to expand my portfolio:</CardDescription>
+                  <CardTitle>Ide Proyek Hasil Generasi AI</CardTitle>
+                  <CardDescription>Berikut adalah beberapa ide untuk memperluas portofolio saya:</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-4">

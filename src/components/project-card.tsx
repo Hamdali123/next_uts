@@ -51,7 +51,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           <Button asChild>
             <Link href={project.links.live} target="_blank" rel="noopener noreferrer">
               <ExternalLink />
-              Live Demo
+              Demo Langsung
             </Link>
           </Button>
         )}
