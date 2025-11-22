@@ -3,8 +3,8 @@ import { PlaceHolderImages } from './placeholder-images';
 
 export const portfolioData = {
   name: 'Muhamad Hamdali',
-  title: 'Spesialis Jaringan',
-  bio: "Saya adalah seorang spesialis jaringan yang bersemangat dalam merancang, mengimplementasikan, dan mengelola infrastruktur jaringan yang andal dan aman. Dengan pemahaman mendalam tentang protokol jaringan, keamanan, dan teknologi terkini, saya berfokus pada menciptakan solusi jaringan yang efisien dan skalabel untuk memenuhi kebutuhan bisnis modern.",
+  title: 'Peminat Dunia Jaringan',
+  bio: "Saya adalah seorang penggemar teknologi yang memiliki minat besar dalam dunia jaringan. Saya senang merancang, mengimplementasikan, dan mengelola infrastruktur jaringan. Dengan rasa ingin tahu yang tinggi terhadap protokol jaringan, keamanan, dan teknologi terkini, saya selalu antusias untuk belajar dan menciptakan solusi jaringan yang efisien.",
   contact: {
     email: 'hamdali.dev@example.com',
     social: {
