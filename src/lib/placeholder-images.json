@@ -2,15 +2,15 @@
   "placeholderImages": [
     {
       "id": "project-1",
-      "description": "Merancang dan mengimplementasikan infrastruktur jaringan untuk kantor cabang baru, mencakup konfigurasi router, switch, dan access point untuk memastikan konektivitas yang optimal dan aman bagi seluruh karyawan.",
+      "description": "Merancang dan mengimplementasikan infrastruktur jaringan untuk kantor cabang baru, mencakup konfigurasi router, switch, dan access point untuk memastikan konektivivitas yang optimal dan aman bagi seluruh karyawan.",
       "imageUrl": "https://res.cloudinary.com/dxinzgc1n/image/upload/v1763907903/unnamed_vtw5gy.jpg",
       "imageHint": "network infrastructure"
     },
     {
       "id": "project-2",
       "description": "Menerapkan solusi jaringan nirkabel terpusat untuk area publik, mengelola ratusan access point menggunakan wireless controller untuk menyediakan cakupan Wi-Fi yang handal dan manajemen yang mudah.",
-      "imageUrl": "https://images.unsplash.com/photo-1750041888982-67a58e6c9014?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxlY29tbWVyY2UlMjBwbGF0Zm9ybXxlbnwwfHx8fDE3NjM3MjIxODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "ecommerce platform"
+      "imageUrl": "https://res.cloudinary.com/dxinzgc1n/image/upload/v1763907864/Gemini_Generated_Image_lcnxtmlcnxtmlcnx_d3srgt.png",
+      "imageHint": "wireless network"
     },
     {
       "id": "project-3",
