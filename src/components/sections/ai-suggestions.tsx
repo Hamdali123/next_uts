@@ -39,9 +39,9 @@ export function AiSuggestions() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <Lightbulb className="mx-auto h-12 w-12 text-accent" />
-          <h2 className="mt-4 text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Butuh Ide Proyek?</h2>
+          <h2 className="mt-4 text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Saran Proyek Jaringan dari AI</h2>
           <p className="mt-4 max-w-[900px] mx-auto text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Manfaatkan AI untuk mendapatkan saran proyek yang dipersonalisasi berdasarkan keahlian dan portofolio saya saat ini. Temukan ide hebat berikutnya untuk dibangun.
+            Penasaran proyek jaringan apa lagi yang bisa saya kerjakan? Gunakan AI untuk mendapatkan saran ide proyek baru yang relevan dengan keahlian dan pengalaman saya di bidang jaringan, untuk terus mengembangkan portofolio ini.
           </p>
           <Button onClick={handleSuggestProjects} disabled={isLoading} size="lg" className="mt-8 bg-accent hover:bg-accent/90 text-accent-foreground">
             {isLoading ? (
