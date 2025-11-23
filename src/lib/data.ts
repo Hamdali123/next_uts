@@ -19,7 +19,7 @@ export const portfolioData = {
     { name: 'Network Security', level: 85 },
     { name: 'TCP/IP Suite', level: 95 },
     { name: 'Firewall & VPN', level: 80 },
-    { name: 'Python (Automasi)', level: 75 },
+    { name: 'PPPoE', level: 75 },
     { name: 'Monitoring Jaringan', level: 85 },
     { name: 'Wireless Networking', level: 80 },
   ],
