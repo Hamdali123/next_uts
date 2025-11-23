@@ -9,7 +9,7 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const navLinks = [
     { href: "/", label: "Beranda" },
@@ -22,6 +22,47 @@ const navLinks = [
 export function Header() {
   const isMobile = useIsMobile();
   const [isOpen, setIsOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return (
+      <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur-sm">
+        <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
+           <Link href="/" className="flex items-center gap-2" prefetch={false}>
+            <MountainIcon className="h-6 w-6 text-primary" />
+            <span className="font-semibold">Muhamad Hamdali</span>
+          </Link>
+          <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
+              {navLinks.map(link => (
+                  <Link
+                      key={link.href}
+                      href={link.href}
+                      className="transition-colors hover:text-primary"
+                      prefetch={false}
+                  >
+                      {link.label}
+                  </Link>
+              ))}
+          </nav>
+          <Button asChild className="hidden md:flex">
+            <Link href="#contact" prefetch={false}>
+              Hubungi Saya
+            </Link>
+          </Button>
+          <div className="md:hidden">
+            <Button variant="outline" size="icon" disabled>
+              <Menu className="h-6 w-6" />
+              <span className="sr-only">Buka menu navigasi</span>
+            </Button>
+          </div>
+        </div>
+      </header>
+    );
+  }
 
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur-sm">
