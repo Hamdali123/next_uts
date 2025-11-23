@@ -2,26 +2,26 @@
   "placeholderImages": [
     {
       "id": "project-1",
-      "description": "A web application for task management.",
+      "description": "Merancang dan mengimplementasikan infrastruktur jaringan untuk kantor cabang baru, mencakup konfigurasi router, switch, dan access point untuk memastikan konektivitas yang optimal dan aman bagi seluruh karyawan.",
       "imageUrl": "https://images.unsplash.com/photo-1700561571254-4fb2f1cbcbc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGFzayUyMG1hbmFnZW1lbnR8ZW58MHx8fHwxNzYzODAyNjQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "task management"
     },
     {
       "id": "project-2",
-      "description": "An e-commerce platform for selling custom prints.",
+      "description": "Menerapkan solusi jaringan nirkabel terpusat untuk area publik, mengelola ratusan access point menggunakan wireless controller untuk menyediakan cakupan Wi-Fi yang handal dan manajemen yang mudah.",
       "imageUrl": "https://images.unsplash.com/photo-1750041888982-67a58e6c9014?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxlY29tbWVyY2UlMjBwbGF0Zm9ybXxlbnwwfHx8fDE3NjM3MjIxODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ecommerce platform"
     },
     {
       "id": "project-3",
-      "description": "A social media dashboard for content creators.",
+      "description": "Melakukan analisis keamanan jaringan menggunakan tools seperti Wireshark dan Nmap untuk mendeteksi anomali. Mengimplementasikan kebijakan firewall dan VPN untuk melindungi data dan sumber daya perusahaan.",
       "imageUrl": "https://images.unsplash.com/photo-1683721003111-070bcc053d8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjM4MDYwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "social media"
     },
     {
       "id": "profile",
       "description": "A portrait of a person for a profile.",
-      "imageUrl": "https://images.unsplash.com/photo-1489514427794-bb4f67f45c7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYzNzE3NDYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/dxinzgc1n/image/upload/v1763905965/03c4cb2f-2714-4235-97cc-dd17042c58f3_sh02hw.jpg",
       "imageHint": "profile portrait"
     }
   ]
